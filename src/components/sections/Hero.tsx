@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { profile } from "@/data/profile";
 
 export default function Hero() {
@@ -23,10 +24,13 @@ export default function Hero() {
             GitHub →
           </a>
         </div>
-        <img
+        <Image
           src={profile.avatar}
           alt={profile.name}
-          className="w-48 md:w-64 opacity-90 flex-shrink-0"
+          width={256}
+          height={256}
+          priority
+          className="w-48 md:w-64 h-auto opacity-90 flex-shrink-0"
         />
       </div>
 
