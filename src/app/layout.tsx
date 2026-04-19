@@ -12,7 +12,7 @@ const inter = Inter({
 const siteUrl = "https://usuginus.github.io/my-portfolio";
 
 export const metadata: Metadata = {
-  title: "Usuginu (伊藤弘一郎 / Koichiro Ito) - Portfolio",
+  title: "Usuginu (Koichiro Ito) - Portfolio",
   description:
     "うすぎぬ / Usuginu / 伊藤弘一郎 / Koichiro Ito のポートフォリオ。Audio, VR, Crypto, AI が好物の Backend & Data & Game エンジニア。メルコイン / REALITY でのサービス開発、VR研究の実績を紹介。",
   keywords: [

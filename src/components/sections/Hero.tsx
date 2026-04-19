@@ -5,7 +5,7 @@ const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 export default function Hero() {
   return (
     <section id="hero" className="scroll-mt-14 h-screen flex items-center relative">
-      <div className="mx-auto max-w-4xl px-6 py-24 flex flex-col-reverse md:flex-row items-center md:items-start gap-16 w-full">
+      <div className="mx-auto max-w-4xl px-6 py-24 flex flex-col-reverse md:flex-row items-center md:items-start gap-3 md:gap-16 w-full">
         <div className="flex-1 text-center md:text-left">
           <h1 className="text-6xl md:text-8xl font-black tracking-tighter">
             {profile.name}
@@ -28,7 +28,7 @@ export default function Hero() {
         <img
           src={`${basePath}${profile.avatar}`}
           alt={profile.name}
-          className="w-48 md:w-72 md:-mt-8 opacity-90 flex-shrink-0"
+          className="w-48 md:w-72 md:-mt-8 opacity-95 flex-shrink-0"
         />
       </div>
 

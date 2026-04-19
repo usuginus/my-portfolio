@@ -11,7 +11,7 @@ const jsonLd = {
   alternateName: ["うすぎぬ", "伊藤弘一郎", "Koichiro Ito"],
   jobTitle: "Software Engineer",
   description:
-    "Audio, VR, Crypto, AI が好物の Backend & Data & Game エンジニア。",
+    "Audio, VR, Crypto, AI が好物の Backend & Data & Game エンジニア",
   url: "https://usuginus.github.io/my-portfolio",
   sameAs: ["https://github.com/usuginus"],
   worksFor: [
