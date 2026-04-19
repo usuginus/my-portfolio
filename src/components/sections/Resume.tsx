@@ -3,7 +3,7 @@ import { workExperience, education, awards } from "@/data/resume";
 
 export default function Resume() {
   return (
-    <section id="resume" className="scroll-mt-14 py-24">
+    <section id="resume" className="scroll-mt-14 py-12 md:py-24">
       <div className="mx-auto max-w-4xl px-6">
         <SectionHeading title="Resume" />
 
