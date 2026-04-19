@@ -13,7 +13,7 @@ export default function Hero() {
           <p className="mt-3 text-base tracking-wide text-muted">
             {profile.title}
           </p>
-          <p className="mt-6 text-sm leading-relaxed text-muted max-w-md">
+          <p className="mt-6 text-sm leading-relaxed text-muted max-w-lg">
             {profile.description}
           </p>
           <a
@@ -28,7 +28,7 @@ export default function Hero() {
         <img
           src={`${basePath}${profile.avatar}`}
           alt={profile.name}
-          className="w-48 md:w-72 md:-mt-4 opacity-90 flex-shrink-0"
+          className="w-48 md:w-72 md:-mt-8 opacity-90 flex-shrink-0"
         />
       </div>
 
