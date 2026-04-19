@@ -28,6 +28,9 @@ export default function Hero() {
         <img
           src={`${basePath}${profile.avatar}`}
           alt={profile.name}
+          width={576}
+          height={560}
+          fetchPriority="high"
           className="w-48 md:w-72 md:-mt-8 opacity-95 flex-shrink-0"
         />
       </div>

@@ -4,7 +4,7 @@ import { skillSections } from "@/data/skills";
 
 export default function Skills() {
   return (
-    <section id="skills" className="scroll-mt-14 py-24">
+    <section id="skills" className="scroll-mt-14 py-12 md:py-24">
       <div className="mx-auto max-w-4xl px-6">
         <SectionHeading title="Skills" />
 
