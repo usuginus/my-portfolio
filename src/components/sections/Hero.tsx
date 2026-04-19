@@ -1,5 +1,6 @@
-import Image from "next/image";
 import { profile } from "@/data/profile";
+
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 export default function Hero() {
   return (
@@ -24,13 +25,10 @@ export default function Hero() {
             GitHub →
           </a>
         </div>
-        <Image
-          src={profile.avatar}
+        <img
+          src={`${basePath}${profile.avatar}`}
           alt={profile.name}
-          width={256}
-          height={256}
-          priority
-          className="w-48 md:w-64 h-auto opacity-90 flex-shrink-0"
+          className="w-48 md:w-64 opacity-90 flex-shrink-0"
         />
       </div>
 
