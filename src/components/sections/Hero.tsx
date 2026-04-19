@@ -25,6 +25,7 @@ export default function Hero() {
             GitHub →
           </a>
         </div>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={`${basePath}${profile.avatar}`}
           alt={profile.name}
