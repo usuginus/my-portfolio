@@ -9,10 +9,10 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "メルコイン 暗号資産サービス",
+    title: "メルコイン",
     subtitle: "株式会社メルコイン / 暗号資産取引",
     description:
-      "「多様な価値がめぐる新しい経済をつくる」をミッションに、メルカリアプリ上で BTC 等の暗号資産売買、暗号資産つみたてなどを提供するサービスのバックエンド開発。マイクロサービスアーキテクチャによる設計・実装・運用と AI Agent を活用した開発支援に従事。",
+      "メルカリアプリ上で BTC 等の暗号資産取引、暗号資産つみたてなどを提供するサービスのバックエンド開発。マイクロサービスアーキテクチャによる設計・実装・運用と AI Agent を活用した開発支援に従事。",
     youtubeId: "f9BUVe6bO0E",
     links: [
       { title: "メルコイン", url: "https://about.mercoin.com/" },
@@ -21,9 +21,9 @@ export const projects: Project[] = [
   },
   {
     title: "REALITY",
-    subtitle: "REALITY株式会社 / メタバースアプリ",
+    subtitle: "REALITY株式会社 / メタバース",
     description:
-      "世界63地域で展開されるライブ配信アプリ「REALITY」のサーバーサイド開発。Go/TypeScript によるバックエンド機能開発、パフォーマンスチューニング、データ基盤構築、Observability 強化、Engineering Managerに従事。",
+      "世界63地域で展開されるライブ配信アプリ「REALITY」のサーバーサイド開発。Go/TypeScript によるバックエンド機能開発、パフォーマンスチューニング、データ基盤構築、Observability 強化、Engineering Managerを経験。",
     youtubeId: "ktMNqFuW6uQ",
     links: [
       { title: "REALITY", url: "https://reality.app/" },
