@@ -10,7 +10,7 @@ export interface Project {
 export const projects: Project[] = [
   {
     title: "メルコイン 暗号資産サービス",
-    subtitle: "株式会社メルコイン / 暗号資産取引・つみたて・ポイント還元",
+    subtitle: "株式会社メルコイン / 暗号資産取引",
     description:
       "「多様な価値がめぐる新しい経済をつくる」をミッションに、メルカリアプリ上で BTC 等の暗号資産売買、暗号資産つみたてなどを提供するサービスのバックエンド開発。マイクロサービスアーキテクチャによる設計・実装・運用と AI Agent を活用した開発支援に従事。",
     youtubeId: "f9BUVe6bO0E",
