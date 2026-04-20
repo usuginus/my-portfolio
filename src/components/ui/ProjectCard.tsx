@@ -5,9 +5,14 @@ import SkillBadge from "./SkillBadge";
 export default function ProjectCard({ project }: { project: Project }) {
   return (
     <article className="pb-12 border-b border-border last:border-b-0 last:pb-0">
-      <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1">
+      <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1">
         <h3 className="text-xl font-bold">{project.title}</h3>
-        <p className="text-xs text-muted">{project.subtitle}</p>
+        <div className="flex flex-col gap-0.5 sm:items-end sm:text-right shrink-0">
+          <p className="text-xs text-muted">{project.subtitle}</p>
+          {project.honor ? (
+            <p className="text-xs font-medium text-muted">{project.honor}</p>
+          ) : null}
+        </div>
       </div>
       <p className="mt-3 text-sm leading-relaxed text-muted">
         {project.description}

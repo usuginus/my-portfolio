@@ -1,6 +1,7 @@
 export interface Project {
   title: string;
   subtitle: string;
+  honor?: string;
   description: string;
   youtubeId?: string;
   links: { title: string; url: string }[];
@@ -10,7 +11,7 @@ export interface Project {
 export const projects: Project[] = [
   {
     title: "メルコイン",
-    subtitle: "株式会社メルコイン / 暗号資産取引",
+    subtitle: "株式会社メルカリ / 暗号資産",
     description:
       "メルカリアプリ上で BTC 等の暗号資産取引、暗号資産つみたてなどを提供するサービスのバックエンド開発。マイクロサービスアーキテクチャによる設計・実装・運用と AI Agent を活用した開発支援に従事。",
     youtubeId: "f9BUVe6bO0E",
@@ -21,7 +22,7 @@ export const projects: Project[] = [
   },
   {
     title: "REALITY",
-    subtitle: "REALITY株式会社 / メタバース",
+    subtitle: "グリーホールディングス株式会社 / メタバース",
     description:
       "世界63地域で展開されるライブ配信アプリ「REALITY」のサーバーサイド開発。Go/TypeScript によるバックエンド機能開発、パフォーマンスチューニング、データ基盤構築、Observability 強化、Engineering Managerを経験。",
     youtubeId: "ktMNqFuW6uQ",
@@ -48,7 +49,8 @@ export const projects: Project[] = [
   },
   {
     title: "VR消防体験 -炎舞-",
-    subtitle: "IVRC 2019 総合優勝",
+    subtitle: "筑波大学バーチャルリアリティ研究室 / VR",
+    honor: "IVRC 2019 総合優勝",
     description:
       "消防隊員の視点で消火活動を体験するVRアトラクション。風覚提示装置と水噴流反力デバイスを自作し、没入感を実現。",
     youtubeId: "V0Sx3hOtxdg",
@@ -59,7 +61,8 @@ export const projects: Project[] = [
   },
   {
     title: "Multitouch Haptic Interface",
-    subtitle: "修士研究 / 電気学会技術委員会奨励賞",
+    subtitle: "筑波大学バーチャルリアリティ研究室 / VR",
+    honor: "電気学会技術委員会奨励賞",
     description:
       "可動タッチスクリーンで指先にせん断力を与え、バーチャル物体の形状・重さを知覚させるハプティックディスプレイ。",
     youtubeId: "YCZPmj7NtSQ",
@@ -70,7 +73,8 @@ export const projects: Project[] = [
   },
   {
     title: "天獄渡り",
-    subtitle: "IVRC 2018 決勝進出",
+    subtitle: "筑波大学バーチャルリアリティ研究室 / VR",
+    honor: "IVRC 2018 決勝進出",
     description:
       "高所の橋をセグウェイで渡るVRアトラクション。膝振動デバイスで恐怖時の膝の震えを再現し、恐怖感を錯覚させる。",
     youtubeId: "8WcjSPBK4X0",
@@ -81,7 +85,8 @@ export const projects: Project[] = [
   },
   {
     title: "なんでもルービックキューブ",
-    subtitle: "IVRC 2017 決勝進出",
+    subtitle: "筑波大学バーチャルリアリティ研究室 / VR",
+    honor: "IVRC 2017 決勝進出",
     description:
       "ルービックキューブ型力覚デバイスと4面ホログラフィックディスプレイで、物体をねじる力覚を提示。",
     youtubeId: "344g8o2PicA",

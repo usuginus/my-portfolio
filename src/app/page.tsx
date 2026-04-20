@@ -11,7 +11,7 @@ const jsonLd = {
   alternateName: ["うすぎぬ", "伊藤弘一郎", "Koichiro Ito"],
   jobTitle: "Software Engineer",
   description:
-    "Audio, VR, Crypto, AI が好物の Backend & Data & Game エンジニア",
+    "Audio, VR, Crypto が大好きな Backend, Data, Game のエンジニア。",
   url: "https://usuginus.github.io/my-portfolio",
   sameAs: ["https://github.com/usuginus"],
   worksFor: [
@@ -72,10 +72,13 @@ const jsonLd = {
     },
   ],
   award: [
+    "Mercari RisingStar MVP",
+    "GREE プロジェクト賞 MVP",
     "GREE 新卒 MVP 2020",
+    "一般社団法人茗渓会賞",
     "IVRC 2019 総合優勝",
     "電気学会技術委員会奨励賞",
-    "一般社団法人茗渓会賞",
+    "高校生クイズ 福島県予選優勝・全国大会出場",
   ],
 };
 

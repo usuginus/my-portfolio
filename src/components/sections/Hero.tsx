@@ -13,8 +13,10 @@ export default function Hero() {
           <p className="mt-3 text-base tracking-wide text-muted">
             {profile.title}
           </p>
-          <p className="mt-6 text-sm leading-relaxed text-muted max-w-lg">
-            {profile.description}
+          <p className="mt-6 text-sm leading-relaxed text-muted max-w-lg text-pretty">
+            <span className="block md:inline">{profile.tagline.lead}</span>
+            {" "}
+            <span className="block md:inline">{profile.tagline.role}</span>
           </p>
           <a
             href={profile.links.github}

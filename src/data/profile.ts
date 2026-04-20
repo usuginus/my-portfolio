@@ -1,8 +1,10 @@
 export const profile = {
   name: "Usuginu",
   title: "Software Engineer",
-  description:
-    "Audio, VR, Crypto, AI が好物の Backend & Data & Game エンジニア",
+  tagline: {
+    lead: "Audio, VR, Crypto を愛する",
+    role: "Backend, Data, Game のエンジニア",
+  },
   avatar: "/images/avatar.webp",
   links: {
     github: "https://github.com/usuginus",
