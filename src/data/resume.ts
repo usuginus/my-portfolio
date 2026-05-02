@@ -102,6 +102,8 @@ export const education: Education[] = [
 export const certifications: Certification[] = [
   { title: "Google Cloud Professional Cloud Architect" },
   { title: "Google Cloud Professional Cloud Developer" },
+  { title: "VRSJ / Senior Virtual Reality Specialist" },
+  { title: "VRSJ / Virtual Reality Specialist" },
 ];
 
 export const awards: Award[] = [
