@@ -12,7 +12,7 @@ const inter = Inter({
 const siteUrl = "https://usuginus.github.io/my-portfolio";
 
 export const metadata: Metadata = {
-  title: "Usuginu (Koichiro Ito) - Portfolio",
+  title: "Usuginu / うすぎぬ (Koichiro Ito) - Portfolio",
   description:
     "うすぎぬ / Usuginu / 伊藤弘一郎 / Koichiro Ito のポートフォリオ。Audio, VR, Crypto が大好きな Backend, Data, Game のエンジニア。メルコイン / REALITY でのサービス開発、VR研究の実績を紹介。",
   keywords: [
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   ],
   metadataBase: new URL(siteUrl),
   openGraph: {
-    title: "Usuginu (伊藤弘一郎) - Portfolio",
+    title: "Usuginu / うすぎぬ (伊藤弘一郎) - Portfolio",
     description:
       "Audio, VR, Crypto が大好きな Backend, Data, Game のエンジニア。",
     url: siteUrl,
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary",
-    title: "Usuginu (伊藤弘一郎) - Portfolio",
+    title: "Usuginu / うすぎぬ (伊藤弘一郎) - Portfolio",
     description:
       "Audio, VR, Crypto が大好きな Backend, Data, Game のエンジニア。",
   },
@@ -49,6 +49,9 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: siteUrl,
+  },
+  formatDetection: {
+    telephone: false,
   },
 };
 
