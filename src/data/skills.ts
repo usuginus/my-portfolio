@@ -28,7 +28,7 @@ export const skillSections: SkillSection[] = [
       },
       {
         category: "Observability",
-        items: ["Datadog", "Grafana", "Prometheus", "Cloud Trace"],
+        items: ["Datadog", "Grafana", "Prometheus", "OpenTelemetry"],
       },
       {
         category: "API & Protocol",
